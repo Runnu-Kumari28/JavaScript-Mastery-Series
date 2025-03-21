@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dynamic Variable Swap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Dynamic Variable Swap</h1>
+    <div class="input-container">
+        <label for="inputA">Value A:</label>
+        <input type="text" id="inputA" placeholder="Enter first value" value="1">
+        <label for="inputB">Value B:</label>
+        <input type="text" id="inputB" placeholder="Enter second value" value="2">
+    </div>
+    <div class="container">
+        <div class="box" id="boxA">1</div>
+        <div class="box" id="boxB">2</div>
+    </div>
+    <button onclick="swapVariables()">Swap!</button>
+    <audio id="swapSound" src="swap-sound.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
